@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease-in;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    padding: 0 5%;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+nav>.center {
+    height: 100%;
+}
+
+.center>img {
+    height: 100%;
+}
+
+.left-side>i,
+.left-side>span {
+    font-size: 25px;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav-icon {
+    font-size: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-color: #5d7a7c;
+}
+
+.banner-items {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 3.7% 10%;
+}
+
+.banner-items>h1 {
+    font-size: 100px;
+    color: #fff;
+}
+
+.banner-items>button {
+    width: 150px;
+    padding: 17px;
+    border-radius: 12px;
+    border: none;
+    font-size: 17px;
+}
+
+#nav-icon:hover {
+    color: #e7aa92cd;
+    cursor: pointer;
+}
+
+.center>img:hover {
+    cursor: crosshair;
+    transform: scale(0.9);
+}
+
+.banner-items>button:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cards {
+    width: 100%;
+    height: 60vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.row-elements {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5% 5%;
+    gap: 30px;
+    color: #fff;
+}
+
+.card1 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8ptqGWDOkvDSPxMc6CaSTj5ix-ch5E60gC6QGHWiHCXNMYx_lIjlYQ0&s=10") center/cover;
+}
+
+.card2 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlZjWOINbf0UVdTCnqhK4MLHzFlvr4sjF1tClZVJovbGh_ZVQiLerANSc&s=10") center/cover;
+}
+
+.card3 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ZcL6wSx7Ro_n4jDqzxJevCeZRNsSz3nuvmjIiErhtkFm554gv9bwVPI&s=10") center/cover;
+}
+
+.card>p {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+#card-icon {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.selling-time {
+    width: 100%;
+    height: auto;
+    background: #000;
+}
+
+.seling-img {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+}
+
+.left-car,
+.right-car {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.left-car>img,
+.right-car>img {
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.selling-time>h1 {
+    color: white;
+    padding: 45px;
+    font-size: 60px;
+}
+
+.left-car>img:hover {
+    transform: scale(0.9);
+}
+
+.right-car>img:hover {
+    transform: scale(0.9);
+}
+
+.cards2 {
+    color: #000;
+}
+
+.card11 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRjrIZAO0YxChYBaYUBpOHIVYoL4a2QeTds-fdkvE8Cw&s=10") center/cover;
+}
+
+.card22 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyRFAFHAUqO1khVuKZh5p0j6SLW1T14wx_ldi6dNIkjQ&s=10") center/cover;
+}
+
+.card33 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRecT3VY83z3h2IoegMEJvzcg5n4KFvMGh3oilEIZPGLA&s=10") center/cover;
+}
+
+
+
+.df {
+    margin: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.h111 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    background: #000;
+    padding: 5%;
+}
+
+.footer-tepa {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer>.footer-tepa>h3 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer>.footer-tepa>.tepa-tepa,
+.footer>.footer-tepa>.tepa-past {
+    font-weight: 100px;
+}
+
+.footer-orta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer-past1{
+    margin-top: 300px;
+    display: flex;
+    gap: 20px;
+}
